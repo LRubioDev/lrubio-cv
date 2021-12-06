@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   CDBSidebar,
   CDBSidebarContent,
@@ -8,12 +9,11 @@ import {
   CDBSidebarMenuItem,
 } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
+import './Sidebar.css';
 
 const Sidebar = () => {
     return (
-      <div
-        style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
-      >
+      <div className="side-ini">
         <CDBSidebar textColor="#fff" backgroundColor="#333">
           <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
             <a

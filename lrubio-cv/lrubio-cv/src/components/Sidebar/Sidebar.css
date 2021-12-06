@@ -1,0 +1,7 @@
+.side-ini{
+    top: 0;
+    float: left;
+    display: flex;
+    height: 100vh; 
+    overflow: initial;
+}
