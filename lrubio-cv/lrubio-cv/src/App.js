@@ -1,5 +1,7 @@
 import Cv from './components/cv';
 import Principal from './components/principal';
+import Sidebar from './components/Sidebar/Sidebar';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -11,9 +13,9 @@ function App() {
           Bienvenidos a mi web personal
         </h1>
 
-
       </header>
       <body>
+        <Sidebar />
         <Principal />
       </body>
     </div>
